@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- change the website favicon -->
+    <link rel="icon" type="image/png" href="passwordFavicon.png"> 
+
+</head>
+<body id="body">
+
+    <!-- typing .container creates a CLASS container -->
+    <div class="container">
+        <!-- add input box -->
+        <div class="inputBox">
+            <input type="password" id="password" placeholder="Password">
+
+            <!-- message about the password -->
+            <p id="message"><span id="heckle">Nothing is in the box dumb dumb.</span></p>
+            <!-- <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br> -->
+
+
+        </div>
+    </div>
+
+    <!-- Toggle light/dark mode button -->
+    <div id="toggleButton" >
+        <button class="btn">
+            <img src="light.png" id="toggle">
+        </button>
+    </div>
+
+    <p id="disclaimer">*Passwords typed are never stored.*<p>
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
